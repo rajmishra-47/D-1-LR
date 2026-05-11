@@ -36,7 +36,13 @@ pip install -r requirements.txt
 ## Run the server
 
 ```bash
-uvicorn app.main:app --reload
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+Or, run the app module directly:
+
+```bash
+python -m app.main
 ```
 
 ## Predict
