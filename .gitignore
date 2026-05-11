@@ -54,7 +54,7 @@ htmlcov/
 *.sqlite3
 
 # Model artifacts (ignore trained models / large binary files)
-Linear-Regression-model.pkl
+# Linear-Regression-model.pkl
 *.pkl
 
 # Secrets and credentials
